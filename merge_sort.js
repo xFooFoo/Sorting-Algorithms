@@ -20,7 +20,7 @@ function mergesort(data) {
 
 function merge(leftArray, rightArray) {
     //compare left-most element from each array and put in new list
-    mergedArray = []
+    let mergedArray = []
     let [l, r] = [0, 0] //index for left / right array
     while (l < leftArray.length && r < rightArray.length) {
         if (leftArray[l] < rightArray[r]) {
